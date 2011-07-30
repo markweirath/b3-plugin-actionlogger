@@ -1,0 +1,6 @@
+<configuration plugin="stats">
+	<settings name="settings">
+		<set name="logfile">admin.log</set>
+		<set name="loglevel">40</set>
+	</settings>
+</configuration>

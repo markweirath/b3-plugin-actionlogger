@@ -1,0 +1,44 @@
+###################################################################################
+#
+# Plugin for B3 (www.bigbrotherbot.net)
+# (c) 2011 Mark Weirath (xlr8or@xlr8or.com)
+#
+# This program is free software and licensed under the terms of
+# the GNU General Public License (GPL), version 2.
+#
+# http://www.gnu.org/copyleft/gpl.html
+###################################################################################
+
+Actionlogger (v0.1)
+###################################################################################
+
+This plugin logs all admin commands to a logfile (rotated just like the b3.log)
+
+Requirements:
+###################################################################################
+
+- B3 version 1.6.0 or higher
+
+
+Installation:
+###################################################################################
+
+1. Unzip the contents of this package into your B3 folder. It will
+place the .py file in b3/extplugins and the config file .xml in
+your b3/extplugins/conf folder.
+
+2. Open the .xml file with your favorit editor and modify the
+settings if you want them different.
+
+3. Open your B3.xml file (in b3/conf) and add the next line in the
+<plugins> section of the file:
+
+<plugin name="actionlogger" config="@b3/extplugins/conf/actionlogger.xml"/>
+
+Changelog
+###################################################################################
+v0.1         : Beta
+
+
+###################################################################################
+xlr8or - 30 july 2011 - www.bigbrotherbot.net // www.xlr8or.com
